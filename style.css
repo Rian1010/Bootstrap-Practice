@@ -1,0 +1,165 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+/*Callout*/
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/Water.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+@media (min-width: 768px) {
+ .navbar-right {
+        float: right!important;
+        transform: translateY(-30px);
+    }
+}
+
+.navbar-text {
+    margin-top: 0;
+    position: static;
+}
+
+.btn.btn-default.navbar-btn {
+    margin-top: 0;
+    transform: translate(10px 0);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.container-wrapper--orange {
+    background-color: #ff8805;
+}
+
+/*Navbar*/
+
+.navbar {
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: #E6E6FA;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #C0C0C0;
+}
+
+.navbar-default .navbar-text {
+    color: #C0C0C0;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron.lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+/*block divider*/
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #0531ff;
+}
+
+.block-divider--dark-blue {
+    background-color: #0531ff;
+}
+
+.block-divider--short {
+    width: 45px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--blue {
+    color: white;
+    background-color: #0531ff;
+    border-color: #0531ff;
+}
+
+.btn--blue:hover,
+.btn--blue:active,
+.btn--blue:focus,
+.btn--blue:active:focus {
+    background-color: #0427c9;
+    border-color: #0427c9;
+    color: white;
+    cursor: pointer;
+}
+
+.page-header {
+    text-align: center;
+}
+ 
